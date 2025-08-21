@@ -1,60 +1,55 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>PAGE TITLE</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/css.css">
-<style>
- </style>
+    <title>My Website - Contact</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <div style="background: yellow;padding:5px">
-        <h4 style="text-align:center;">
-            Resize the browser window to see the responsive effect.
-        </h4>
-    </div>
+    <header class="header-top">
+        <h1>My Website</h1>
+    </header>
 
-    <div class="header">
-        <h1>6806022610062 ปัณณทัต ทองคำชุม <h1></h1>
-        <h1>My website</h1>
-        <p>With a <b>flexible</b> layout.</p>
-    </div>
+    <nav class="top-nav">
+        <ul class="nav-links-left">
+            <li><a href="#">KMUTNB</a></li>
+            <li><a href="#">FITM</a></li>
+            <li><a href="#">IT DEPT</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button class="search-button">Go</button>
+        </div>
+    </nav>
 
-    <div class="navbar">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
+    <div class="main-container">
+        <main class="content-section">
+            <h2 class="contact-heading">Contact Us</h2>
+            <p>You can contact us via email at: <a href="mailto:someone@example.com">someone@example.com</a></p>
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps?q=12.773856, 101.677570&output=embed"
+                    width="600"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+        </main>
+        
+        <aside class="sidebar">
+            <ul class="sidebar-menu">
+                <li><a href="/T1/html/index.html" class="sidebar-item">Home</a></li>
+                <li><a href="/T1/html/profile.html" class="sidebar-item">Profile</a></li>
+                <li><a href="/T1/html/contact.html" class="sidebar-item">Contact</a></li>
+                <li><a href="/T1/html/register.html" class="sidebar-item">Register</a></li>
+            </ul>
+        </aside>
     </div>
-
-    <div class="row">  
-        <div class="side"
-            <h2>About Me</h2>
-            <h5>Photo of me:</h5>
-            <div class="fakeimg" style="height: 200px;">Image</div>
-            <p>ทดสอบการแสดงผลบนหน้าเว็ป</p>
-            <h3>More Text</h3>
-            <p>แสดงเมนู</p>
-            <div class="fakeimg" style="height:60px">Image</div><br>
-            <div class="fakeimg" style="height:60px">Image</div><br>
-            <div class="fakeimg" style="height:60px">Image</div><br>
-    </div>
-    <div class="main">
-        <h2>TILTE HEADING</h2>
-        <h5>Title decision,July 31,2025</h5>
-        <div class="fakeimg" style="height:200px">Image</div><br>
-        <p>แสดงหัวข้อข่าว</p>
-        <p>มหาวิทยาลัยพระจอมเกล้าพระนครเหนือเขตปราจีนบุรี</p>
-        <br>
-        <h2>TITLE HEADING</h2>
-        <h5>Title description,Aug 1,2025</h5>
-        <div class="fakeimg" style="height:200px">Image</div><br>
-        <p>Some text..</p>
-        <p>คณะเทคโนโลยีและการจัดการอุตสาหกรรม</p>
-    </div>
-<div class="footer">
-    <h2>Footer</h2>
-</div>
-
+    <footer class="footer">
+        <p>Footer</p>
+    </footer>
 </body>
 </html>
