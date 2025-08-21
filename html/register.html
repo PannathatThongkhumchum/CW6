@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website - Register</title>
+    <title>My Website - Contact</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -23,11 +23,13 @@
         </div>
     </nav>
 
-    <main class="content-section">
-    <h2 class="register-heading">Register Member</h2>
-    <p>Please fill in the form below to create an account.</p>
-    <form class="register-form">
-        <div class="form-group">
+    <!-- เพิ่ม container ห่อ content-section กับ sidebar -->
+    <div class="main-container">
+        <main class="content-section">
+            <h2 class="register-heading">Register Member</h2>
+            <p>Please fill in the form below to create an account.</p>
+            <form class="register-form">
+                <div class="form-group">
             <label for="full_name">Full Name</label>
             <input type="text" id="full_name" name="full_name" placeholder="Your full name">
             </div>
@@ -54,13 +56,21 @@
             <button type="submit" class="button register-button">Register</button>
             <button type="button" class="button cancel-button">Cancel</button>
         </form>
-    </main>
-        
-    <aside class="sidebar">
-        <ul class="button">
-            <li><a href="/T1/html/index.html" class="sidebar-item">Home</a></li>
-            <li><a href="/T1/html/profile.html" class="sidebar-item">Profile</a></li>
-            <li><a href="/T1/html/contact.html" class="sidebar-item">Contact</a></li>
-            <li><a href="/T1/html/register.html" class="sidebar-item">Register</a></li>
-        </ul>
-    </aside>
+            </form>
+        </main>
+
+        <aside class="sidebar">
+            <ul class="sidebar-menu">
+                <li><a href="/T1/html/index.html" class="sidebar-item">Home</a></li>
+                <li><a href="/T1/html/profile.html" class="sidebar-item">Profile</a></li>
+                <li><a href="/T1/html/contact.html" class="sidebar-item">Contact</a></li>
+                <li><a href="/T1/html/register.html" class="sidebar-item">Register</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
